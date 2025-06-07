@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/00 Meta/00.1 Vision & Mission.md",
+                "file": "docs/00 Meta/00.2 Naming History & Branding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00.1 Vision & Mission"
+              "title": "00.2 Naming History & Branding"
             }
           }
         ]
@@ -170,8 +170,9 @@
   },
   "active": "ea849c76d503322e",
   "lastOpenFiles": [
-    "docs/00 Meta/00.2 Naming History & Branding.md",
     "docs/00 Meta/00.1 Vision & Mission.md",
+    "docs/00 Meta/00-1 Vision & Mission.md",
+    "docs/00 Meta/00.2 Naming History & Branding.md",
     "docs/10 Core Concepts/10.1 What is AdaVoyager?.md",
     "docs/index.md",
     "docs/00Meta/00.2 Naming History & Branding.md",
@@ -204,7 +205,6 @@
     "docs/98 Glossary & Taxonomy/98.8 UI Labels & Common Phrases/98.8 UI Labels & Phrases.md",
     "docs/98 Glossary & Taxonomy/98.5 System Layers/98.5 System Layers.md",
     "docs/98 Glossary & Taxonomy/98.4 Seasonal Structure/98.4 Seasonal Structure.md",
-    "docs/98 Glossary & Taxonomy/98.7 Quest Types Explained/98.7 Quest Types Explained.md",
-    "docs/98 Glossary & Taxonomy/98.6 Reward Types/98.6 Reward Types.md"
+    "docs/98 Glossary & Taxonomy/98.7 Quest Types Explained/98.7 Quest Types Explained.md"
   ]
 }
