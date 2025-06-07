@@ -9,12 +9,13 @@ use_directory_urls: true
 theme:
   name: material
   palette:
+    scheme: slate    # dark-by-default
     primary:
-      light: indigo
-      dark: indigo
+      light: '#1A56FF'   # Royal Blue
+      dark:  '#01D3DB'   # Electric Teal
     accent:
-      light: cyan
-      dark: cyan
+      light: '#FE00AA'   # Hot Pink
+      dark:  '#6CFBCE'   # Moneta Mint
   font:
     text: Roboto
     code: Roboto Mono
