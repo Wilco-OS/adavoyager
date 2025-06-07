@@ -32,7 +32,7 @@ theme:
 
 plugins:
   - search
-  - ezlinks                  # handles Obsidian [[WikiLinks]]
+  - wikilinks
 
 markdown_extensions:
   - toc:
