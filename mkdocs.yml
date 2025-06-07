@@ -1,7 +1,6 @@
-# mkdocs.yml
 site_name: AdaVoyager
-site_url: https://<your-pages-subdomain>.pages.dev  # update after first deploy
-repo_url: https://github.com/your-username/your-vault
+site_url: https://wiki.adavoyager.com
+repo_url: https://github.com/Wilco-OS/adavoyager
 edit_uri: edit/main/docs
 
 docs_dir: docs
@@ -10,43 +9,26 @@ use_directory_urls: true
 theme:
   name: material
   palette:
-    primary:  
+    primary:
       light: indigo
-      dark:  indigo
-    accent:  
+      dark: indigo
+    accent:
       light: cyan
-      dark:  cyan
+      dark: cyan
   font:
-    text:   Roboto
-    code:   Roboto Mono
+    text: Roboto
+    code: Roboto Mono
   features:
     - navigation.instant
+    - header.autohide
     - search.highlight
-    - announce
-    - navigation.instant     # pre-loads nav panels
-    #- navigation.tabs        # top-bar tabs
-    - search.highlight       # highlight search terms
-    - announcement.show
-    #- header.autohide       # hide on scroll down, show on scroll up
-    - search.suggest        # search suggestions as you type
+    - search.suggest
 
 plugins:
   - search
+  - obsidian-bridge
 
 markdown_extensions:
   - toc:
       permalink: true
   - admonition
-  - pymdownx.wikilinks:
-      base_url: ""
-      end_url: "/"
-      build_url_by_folder: true
-      html_class: wikilink
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/your-username/your-vault
-
-extra_css:
-  - assets/stylesheets/overrides.css
