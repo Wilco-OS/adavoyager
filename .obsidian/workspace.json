@@ -170,11 +170,12 @@
   },
   "active": "ea849c76d503322e",
   "lastOpenFiles": [
+    "docs/00 Meta/00.2 Naming History & Branding.md",
+    "docs/00 Meta/00.1 Vision & Mission.md",
+    "docs/10 Core Concepts/10.1 What is AdaVoyager?.md",
     "docs/index.md",
     "docs/00Meta/00.2 Naming History & Branding.md",
     "docs/00Meta",
-    "docs/00 Meta/00.2 Naming History & Branding.md",
-    "docs/00 Meta/00.1 Vision & Mission.md",
     "00Meta/00.2 Naming History & Branding.md",
     "00Meta",
     "requirements.txt",
@@ -204,7 +205,6 @@
     "docs/98 Glossary & Taxonomy/98.5 System Layers/98.5 System Layers.md",
     "docs/98 Glossary & Taxonomy/98.4 Seasonal Structure/98.4 Seasonal Structure.md",
     "docs/98 Glossary & Taxonomy/98.7 Quest Types Explained/98.7 Quest Types Explained.md",
-    "docs/98 Glossary & Taxonomy/98.6 Reward Types/98.6 Reward Types.md",
-    "docs/98 Glossary & Taxonomy/98.3 Economic Terms/98.3 Economic Terms.md"
+    "docs/98 Glossary & Taxonomy/98.6 Reward Types/98.6 Reward Types.md"
   ]
 }
