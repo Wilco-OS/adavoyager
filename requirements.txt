@@ -1,3 +1,4 @@
 mkdocs>=1.5
 mkdocs-material
 pymdown-extensions
+mkdocs-wikilinks-plugin==0.1.0
