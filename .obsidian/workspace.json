@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "f44b1e36916e0843",
+    "type": "split",
+    "children": [
+      {
+        "id": "28f427f82dfb7828",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea849c76d503322e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4533fc3898ee9a41",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd04d02293ab1ae4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f6c53a4cd677107",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a449042a40bfd00f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2e4b58a1d72a2d4e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5
+  },
+  "right": {
+    "id": "4b98de1686bd70df",
+    "type": "split",
+    "children": [
+      {
+        "id": "49cf66eab222f1d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a2d0463eec10f71",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03 Game Economy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03 Game Economy"
+            }
+          },
+          {
+            "id": "bc1ea78f695fb823",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03 Game Economy.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 03 Game Economy"
+            }
+          },
+          {
+            "id": "eb88736e284b8a71",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2b3904d85bf14020",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03 Game Economy.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 03 Game Economy"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0f6c53a4cd677107",
+  "lastOpenFiles": [
+    "docs/assets/stylesheets/overrides.css",
+    "docs/assets/stylesheets",
+    "docs/assets/untitled folder",
+    "docs/assets",
+    "docs/untitled folder",
+    "docs/AdaVoyager Wiki.md",
+    "docs/index.md",
+    "01 Introduction_old/09 Partner Integration.md",
+    "01 Introduction_old/08 Leaderboards and Rankings.md",
+    "01 Introduction_old/07 Player Progression, Roles, and Multipliers.md",
+    "01 Introduction_old/05 Guilds.md",
+    "01 Introduction_old/06 Factions.md",
+    "01 Introduction_old/04 Quest Types.md",
+    "01 Introduction_old/03 Game Economy.md",
+    "01 Introduction_old/02 Seasons and Gameplay Loop.md",
+    "01 Introduction_old/01 Getting Started.md",
+    "01 Introduction_old/00 Questano.md",
+    "docs/99 Drafts & Experiments/99.1 Unstructured Notes/99.1 Unstructured Notes.md",
+    "01 Introduction_old",
+    "docs/99 Drafts & Experiments/99.4 Feedback & Revisions/99.4 Feedback & Revisions.md",
+    "docs/99 Drafts & Experiments/99.3 Mechanics Prototypes/99.3 Mechanics Prototypes.md",
+    "docs/99 Drafts & Experiments/99.2 MVP Scopes & Launch Plan/99.2 MVP Scopes & Launch Plan.md",
+    "docs/99 Drafts & Experiments/99.1 Unstructured Notes",
+    "docs/99 Drafts & Experiments/99.4 Feedback & Revisions",
+    "docs/99 Drafts & Experiments/99.3 Mechanics Prototypes",
+    "docs/99 Drafts & Experiments/99.2 MVP Scopes & Launch Plan",
+    "docs/99 Drafts & Experiments",
+    "docs/98 Glossary & Taxonomy/98.8 UI Labels & Common Phrases/98.8 UI Labels & Phrases.md",
+    "docs/98 Glossary & Taxonomy/98.5 System Layers/98.5 System Layers.md",
+    "docs/98 Glossary & Taxonomy/98.4 Seasonal Structure/98.4 Seasonal Structure.md",
+    "docs/98 Glossary & Taxonomy/98.7 Quest Types Explained/98.7 Quest Types Explained.md",
+    "docs/98 Glossary & Taxonomy/98.6 Reward Types/98.6 Reward Types.md",
+    "docs/98 Glossary & Taxonomy/98.3 Economic Terms/98.3 Economic Terms.md",
+    "docs/98 Glossary & Taxonomy/98.1 Game Terms/Streak.md",
+    "docs/98 Glossary & Taxonomy/98.1 Game Terms/Season.md",
+    "docs/98 Glossary & Taxonomy/98.1 Game Terms/Quest.md"
+  ]
+}

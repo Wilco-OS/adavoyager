@@ -1,0 +1,39 @@
+/* Hero banner */
+.hero {
+    position: relative;
+    padding: 4rem 1rem;
+    background: linear-gradient(135deg, var(--md-primary-light), var(--md-accent-light));
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+  .hero h1 { font-size: 3rem; margin-bottom: .5rem; }
+  .hero p { font-size: 1.25rem; max-width: 700px; margin: auto; }
+  
+  /* Feature grid */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 1rem;
+  }
+  .card {
+    background: var(--md-surface);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: var(--md-elevation-z2);
+    transition: transform .2s ease;
+  }
+  .card:hover { transform: translateY(-4px); }
+  
+  /* Call-to-action button */
+  .cta {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: .75rem 1.5rem;
+    background: var(--md-accent-dark);
+    color: white;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }

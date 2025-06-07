@@ -1,0 +1,10 @@
+**Questano** is a gamified quest platform built on the Cardano blockchain, designed to engage and reward the entire Cardano community. It combines gaming mechanics with blockchain technology to create a fun, collaborative ecosystem of quests, rewards, and social competition. The vision of Questano is to **unify Cardano stakeholders** – from everyday users to project teams and developers – in a single “metagame” that incentivizes exploration of the Cardano ecosystem. By completing quests (tasks and challenges) related to various Cardano projects, users earn points and rewards while **projects gain active supporters and visibility**. 
+
+Questano’s mission is to make participating in Cardano **interactive and rewarding** for all:
+
+- **End Users (Players):** Enjoy a free-to-play adventure across Cardano dApps and communities, earn rewards like tokens or NFTs, and have fun competing on leaderboards.
+- **Cardano Projects (Partners):** Increase user engagement and loyalty by hosting quests and factions for your community, distributing rewards to real supporters.
+- **Guilds & Communities:** Form player guilds to collaborate in quests and compete with others, strengthening social bonds in the ecosystem.
+- **Developers & Internal Team:** Leverage Questano’s API and admin tools to integrate quests into dApps and manage content easily, using Cardano’s blockchain for transparent reward distribution.
+
+Overall, Questano’s vision is to **gamify the growth of Cardano** – turning ecosystem participation into a game-like experience. Similar concepts have succeeded elsewhere in crypto (e.g. community “quest boards”), and Questano brings this to Cardano with unique twists like NFT avatars, on-chain rewards, and a rich economy. By aligning incentives through gameplay, Questano aims to **accelerate adoption of Cardano** technologies while providing enjoyment and tangible benefits to its users.
