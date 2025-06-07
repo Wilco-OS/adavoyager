@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/00 Meta/00.1 Vision & Mission.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "00.1 Vision & Mission"
             }
           }
         ]
@@ -168,15 +168,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0f6c53a4cd677107",
+  "active": "ea849c76d503322e",
   "lastOpenFiles": [
+    "docs/index.md",
+    "docs/00Meta/00.2 Naming History & Branding.md",
+    "docs/00Meta",
+    "docs/00 Meta/00.2 Naming History & Branding.md",
+    "docs/00 Meta/00.1 Vision & Mission.md",
+    "00Meta/00.2 Naming History & Branding.md",
+    "00Meta",
+    "requirements.txt",
     "docs/assets/stylesheets/overrides.css",
     "docs/assets/stylesheets",
     "docs/assets/untitled folder",
     "docs/assets",
     "docs/untitled folder",
     "docs/AdaVoyager Wiki.md",
-    "docs/index.md",
     "01 Introduction_old/09 Partner Integration.md",
     "01 Introduction_old/08 Leaderboards and Rankings.md",
     "01 Introduction_old/07 Player Progression, Roles, and Multipliers.md",
@@ -193,18 +200,11 @@
     "docs/99 Drafts & Experiments/99.3 Mechanics Prototypes/99.3 Mechanics Prototypes.md",
     "docs/99 Drafts & Experiments/99.2 MVP Scopes & Launch Plan/99.2 MVP Scopes & Launch Plan.md",
     "docs/99 Drafts & Experiments/99.1 Unstructured Notes",
-    "docs/99 Drafts & Experiments/99.4 Feedback & Revisions",
-    "docs/99 Drafts & Experiments/99.3 Mechanics Prototypes",
-    "docs/99 Drafts & Experiments/99.2 MVP Scopes & Launch Plan",
-    "docs/99 Drafts & Experiments",
     "docs/98 Glossary & Taxonomy/98.8 UI Labels & Common Phrases/98.8 UI Labels & Phrases.md",
     "docs/98 Glossary & Taxonomy/98.5 System Layers/98.5 System Layers.md",
     "docs/98 Glossary & Taxonomy/98.4 Seasonal Structure/98.4 Seasonal Structure.md",
     "docs/98 Glossary & Taxonomy/98.7 Quest Types Explained/98.7 Quest Types Explained.md",
     "docs/98 Glossary & Taxonomy/98.6 Reward Types/98.6 Reward Types.md",
-    "docs/98 Glossary & Taxonomy/98.3 Economic Terms/98.3 Economic Terms.md",
-    "docs/98 Glossary & Taxonomy/98.1 Game Terms/Streak.md",
-    "docs/98 Glossary & Taxonomy/98.1 Game Terms/Season.md",
-    "docs/98 Glossary & Taxonomy/98.1 Game Terms/Quest.md"
+    "docs/98 Glossary & Taxonomy/98.3 Economic Terms/98.3 Economic Terms.md"
   ]
 }
