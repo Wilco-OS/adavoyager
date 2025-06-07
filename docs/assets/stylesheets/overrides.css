@@ -1,39 +1,87 @@
-/* Hero banner */
-.hero {
-    position: relative;
-    padding: 4rem 1rem;
-    background: linear-gradient(135deg, var(--md-primary-light), var(--md-accent-light));
-    color: white;
-    text-align: center;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-  }
-  .hero h1 { font-size: 3rem; margin-bottom: .5rem; }
-  .hero p { font-size: 1.25rem; max-width: 700px; margin: auto; }
-  
-  /* Feature grid */
-  .feature-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    gap: 1rem;
-  }
-  .card {
-    background: var(--md-surface);
-    padding: 1rem;
-    border-radius: 1rem;
-    box-shadow: var(--md-elevation-z2);
-    transition: transform .2s ease;
-  }
-  .card:hover { transform: translateY(-4px); }
-  
-  /* Call-to-action button */
-  .cta {
-    display: inline-block;
-    margin-top: 1.5rem;
-    padding: .75rem 1.5rem;
-    background: var(--md-accent-dark);
-    color: white;
-    border-radius: .5rem;
-    text-decoration: none;
-    font-weight: bold;
-  }
+/* Import Inter from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Body & backgrounds */
+.md-content {
+  background: #181447;            /* Deep Navy */
+  color: #E0E0E0;                 /* light grey text */
+}
+.md-sidebar {
+  background: #0D2862;            /* Midnight Blue */
+}
+
+/* Links & accents */
+a, .md-nav__link {
+  color: #01D3DB;                 /* Electric Teal */
+  transition: color .2s ease, text-shadow .2s ease;
+}
+a:hover, .md-nav__link--active, .md-nav__link:hover {
+  color: #FE00AA;                 /* Hot Pink */
+  text-shadow: 0 0 8px rgba(254,0,170, .7);
+}
+
+/* Headers with subtle glow */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  color: #6CFBCE;                 /* Moneta Mint */
+  text-shadow: 0 0 6px rgba(108,251,206,.5);
+}
+
+/* Code blocks & inline code */
+code, pre {
+  background: #1A56FF;            /* Royal Blue */
+  border-radius: .4rem;
+  padding: .2rem .4rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Cards & blocks */
+.md-card, .md-admonition {
+  background: #22204A;            /* darker navy */
+  border: 1px solid #01D3DB;      /* Electric Teal border */
+  box-shadow: 0 2px 8px rgba(1,211,219,.2);
+}
+
+/* Buttons & call-to-action */
+.button, .md-button {
+  background: #01D3DB;            /* Electric Teal */
+  color: #181447;                 /* Deep Navy text */
+  border-radius: .5rem;
+  box-shadow: 0 2px 6px rgba(1,211,219,.5);
+  transition: background .2s ease, box-shadow .2s ease;
+}
+.button:hover, .md-button:hover {
+  background: #FE00AA;            /* Hot Pink */
+  box-shadow: 0 0 12px rgba(254,0,170,.6);
+}
+
+/* Sidebar headers */
+.md-nav__title {
+  color: #6CFBCE;                 /* Moneta Mint */
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+/* Code block line-numbers & emphasis */
+pre code {
+  counter-reset: linenumber;
+}
+pre code span {
+  display: block;
+  counter-increment: linenumber;
+}
+pre code span::before {
+  content: counter(linenumber);
+  display: inline-block;
+  width: 2em;
+  margin-right: .5em;
+  color: rgba(255,255,255,.3);
+  text-align: right;
+}
+
+/* Footer */
+.md-footer {
+  background: #181447;            /* Deep Navy */
+  color: #E0E0E0;
+  border-top: 1px solid #01D3DB;
+}
