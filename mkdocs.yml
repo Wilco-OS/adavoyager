@@ -32,12 +32,16 @@ theme:
 
 plugins:
   - search
-  - wikilinks
 
 markdown_extensions:
   - toc:
-      permalink: true        # adds link icons to headers
+      permalink: true
   - admonition
+  - pymdownx.wikilinks:
+      base_url: ""
+      end_url: "/"
+      build_url_by_folder: true
+      html_class: wikilink
 
 extra:
   social:
