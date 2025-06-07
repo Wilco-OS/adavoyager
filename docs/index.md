@@ -39,8 +39,8 @@ Whether you're a complete newcomer or a DeFi veteran, this platform offers quest
 
 ### 🧭 00 Meta  
 
-- [[00.1 Vision & Mission]]  
-- [[00.2 Naming History & Branding]]  
+- [[00-1 Vision & Mission]]  
+- [[docs/00 Meta/00.2 Naming History & Branding]]  
 - [[00.3 Changelog]]
 - [[00.4 Open Questions]]
 - [[00.5 Brainstorm Log]]  
