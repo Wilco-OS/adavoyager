@@ -143,3 +143,29 @@ a.md-header__button--social[href*="github.com"] {
 .md-header__logo {
   max-height: 2.5rem;
 }
+
+/* 14. Remove unwanted blocks behind sidebar header */
+.md-nav__group, 
+.md-nav__group-title,
+.md-sidebar--secondary .md-nav__title {
+  background: none !important;
+}
+
+/* 15. Clean up any colored “active” highlights */
+.md-nav__link--active,
+.md-nav__link--active .md-nav__link {
+  background: none !important;
+}
+
+/* 16. Strong hot-pink hover for all nav links */
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: #FE00AA !important;
+  /* optional light pink background on hover */
+  background-color: rgba(254,0,170,0.05) !important;
+}
+
+/* 17. Tidy up any other dark squares in header */
+.md-header__inner > div {
+  background: none !important;
+}
