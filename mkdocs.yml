@@ -9,6 +9,7 @@ use_directory_urls: true
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/images/logo.svg
   favicon: assets/images/favicon.ico
   palette:
@@ -31,6 +32,10 @@ theme:
 plugins:
   - search
   - obsidian-bridge
+  - git-revision-date-localized:
+      type: datetime
+      locale: en
+      fallback_to_build_date: true
 
 extra_css:
   - assets/stylesheets/overrides.css
