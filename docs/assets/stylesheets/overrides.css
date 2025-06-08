@@ -25,12 +25,12 @@ body, .md-main, .md-main__inner {
 
 /* 4. Sidebars: distinct from main content */
 .md-sidebar {
-  background-color: var(--midnight-blue) !important;
-  border-right: 3px solid var(--electric-teal) !important;
+  background-color: var(--bg-main) !important;
+  border-right: 0px solid var(--bg-main) !important;
 }
 .md-sidebar--secondary {
-  background-color: var(--midnight-blue) !important;
-  border-left: 3px solid var(--electric-teal) !important;
+  background-color: var(--bg-main) !important;
+  border-left: 0px solid var(--bg-main) !important;
 }
 
 /* 5. Typography */
@@ -162,6 +162,8 @@ pre code span::before {
 }
 
 /* 16. Logo sizing */
-.md-header__logo {
-  max-height: 2.5rem !important;
+.md-header__logo img {
+  width: auto !important;
+  height: 2.5rem !important;
+  object-fit: contain;
 }
