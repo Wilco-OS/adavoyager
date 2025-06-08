@@ -1,0 +1,1 @@
+A ranking system displaying top users, Guilds, and Factions based on seasonal performance, [[Fame]], or other metrics. Leaderboards can be segmented by timeframe (daily, weekly, all-time) and type (XP, [[Gold]], [[Fame]], [[Event]] Points).

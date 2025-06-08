@@ -1,0 +1,1 @@
+Game elements recorded on the Cardano blockchain for transparency and immutability. Includes [[NFT]]-bound Avatars, wallet-linked progress, and some reward distributions.

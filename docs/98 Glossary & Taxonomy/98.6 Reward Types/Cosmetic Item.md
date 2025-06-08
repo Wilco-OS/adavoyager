@@ -1,0 +1,1 @@
+Non-functional, visual customizations such as [[Avatar]] skins, frames, or profile backgrounds. Cosmetic items can be unlocked through gameplay or purchased with [[Gold]], and do not affect progression.

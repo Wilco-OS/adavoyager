@@ -1,0 +1,1 @@
+A non-transferable score that reflects a [[User]]’s overall progression. Earned by completing quests, XP contributes to tier levels, [[Badge]] unlocks, and [[Leaderboard]] standings, but has no monetary value. Separate XP tracks may exist for users and Guilds.

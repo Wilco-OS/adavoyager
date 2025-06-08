@@ -1,0 +1,1 @@
+Payouts and prizes distributed at the end of a [[Season]] based on performance. May include [[Gold]] (USDM), NFTs, Badges, or [[Partner]] items. Rewards are often tiered based on [[Leaderboard]] position or thresholds.

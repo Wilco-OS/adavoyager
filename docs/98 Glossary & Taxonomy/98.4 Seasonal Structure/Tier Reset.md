@@ -1,0 +1,1 @@
+A soft or full reset of XP Tiers at the end of a [[Season]]. Used to re-level the playing field, while often retaining cosmetic or [[Fame]]-based achievements. Some elements (e.g., badges, [[Fame]]) persist across seasons.

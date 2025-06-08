@@ -1,0 +1,1 @@
+A USDM/[[Token]] pool provided by a project to establish a [[Guild]]. LPs back the [[Reward Pool]] and connect gameplay directly to DeFi infrastructure. Created via partners like SundaeLabs.

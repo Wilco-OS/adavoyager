@@ -1,0 +1,1 @@
+Option to select a different [[Faction]] for future [[Quest]] completions. Unlike Guilds, [[Faction]] selection is non-exclusive and flexible, encouraging broad ecosystem exploration.

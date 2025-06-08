@@ -1,0 +1,1 @@
+An accessible, no-wallet-required entry point to AdaVoyager. Users can complete limited quests, earn basic badges, and explore the platform. Designed to onboard newcomers before upgrading to [[Full Mode]].

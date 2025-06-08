@@ -1,0 +1,1 @@
+Displayed when a [[User]] has not yet selected a [[Guild]]. Choosing a [[Guild]] is a one-time seasonal decision that unlocks [[Guild]]-exclusive content.

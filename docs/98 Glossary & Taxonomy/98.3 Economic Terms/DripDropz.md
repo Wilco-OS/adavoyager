@@ -1,0 +1,1 @@
+A Cardano-native distribution platform used to automate and verify [[Token]] rewards. Integrated into AdaVoyager to handle scalable reward delivery (tokens, NFTs, etc.).

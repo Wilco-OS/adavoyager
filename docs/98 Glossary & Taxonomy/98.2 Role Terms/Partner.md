@@ -1,0 +1,1 @@
+Any external Cardano project or initiative integrated into AdaVoyager. Partners can launch quests, campaigns, or events, and can act as a [[Faction]] or host a [[Guild]] if requirements are met.

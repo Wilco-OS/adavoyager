@@ -1,0 +1,1 @@
+An internal team role managing platform-wide mechanics, reviewing abuse flags, configuring seasons, and launching global events. Admins have full access to all backend and [[Partner]] dashboards.

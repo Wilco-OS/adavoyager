@@ -1,0 +1,1 @@
+A generic term for any crypto asset used in the game, such as a project’s native token. Tokens may be distributed as [[Quest]] rewards, items, or [[Event]] bonuses.

@@ -1,0 +1,1 @@
+Tag indicating that a [[Quest]] is part of a special [[Event]] with limited duration and potentially rare rewards. Often shown in seasonal or [[Campaign]]-specific views.

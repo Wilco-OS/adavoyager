@@ -1,0 +1,1 @@
+A supporting role within a [[Guild]] that helps the [[Guildmaster]] manage quests, moderate community input (if applicable), and assist with operations. Moderators do not create Guilds but may manage [[Guild]]-specific content.

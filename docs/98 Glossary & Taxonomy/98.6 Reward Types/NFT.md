@@ -1,0 +1,1 @@
+Unique, non-fungible tokens used for [[Avatar]] identity, collectibles, or special rewards. Some NFTs are soulbound (non-transferable), while others may be tradable and hold utility across [[Partner]] platforms.

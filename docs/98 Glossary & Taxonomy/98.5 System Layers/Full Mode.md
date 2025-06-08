@@ -1,0 +1,1 @@
+The connected version of the game, unlocked via wallet integration. Users receive a soulbound [[NFT]] [[Avatar]], unlock advanced quests, join a [[Guild]], earn [[Gold]] (USDM), and gain access to leaderboards, badges, and seasonal rewards.

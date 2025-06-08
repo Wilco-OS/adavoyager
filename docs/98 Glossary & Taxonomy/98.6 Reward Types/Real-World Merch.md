@@ -1,0 +1,1 @@
+Tangible goods (e.g., shirts, stickers, hardware wallets) distributed as part of [[Campaign]] giveaways, [[Event]] rewards, or seasonal prize pools. Often tied to promotional events or major ecosystem milestones.

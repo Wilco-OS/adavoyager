@@ -1,0 +1,1 @@
+A collectible achievement awarded for specific milestones, actions, or [[Event]] participation. Badges come in different rarities and can be displayed on [[User]] profiles. Some badges may unlock rewards or multipliers.

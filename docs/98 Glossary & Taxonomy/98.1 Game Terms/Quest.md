@@ -1,0 +1,1 @@
+A task or challenge presented to players. Quests are the core interaction in AdaVoyager and can be completed to earn experience, [[Fame]], [[Gold]], badges, and [[Event]] points. Quests can originate from Guilds, Factions, Events, or Partners, and come in various types like quizzes, QR hunts, or social actions.

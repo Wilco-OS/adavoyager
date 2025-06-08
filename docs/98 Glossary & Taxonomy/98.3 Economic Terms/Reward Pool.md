@@ -1,0 +1,1 @@
+A predefined allocation of [[Gold]] (USDM) or other prizes distributed at the end of a [[Season]] or [[Event]]. Reward Pools are split based on [[User]] and [[Guild]] performance.

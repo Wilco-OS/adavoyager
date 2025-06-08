@@ -1,0 +1,1 @@
+The official representative and leader of a [[Guild]]. Responsible for setting up [[Guild]] Quests, managing the [[Guild]]’s dashboard, and driving participation. Usually tied to a real Cardano project and may need to provide liquidity to qualify.

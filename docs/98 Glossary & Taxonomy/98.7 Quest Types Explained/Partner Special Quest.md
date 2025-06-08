@@ -1,0 +1,1 @@
+Sponsored or co-created quests by external ecosystem partners. Often include custom rewards like [[Partner Token|Partner Tokens]], merch, or unique [[NFT]]s.

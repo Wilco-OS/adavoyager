@@ -1,0 +1,1 @@
+Tokens issued by external Cardano projects offered as [[Quest]] or [[Campaign]] rewards. May include staking tokens, utility tokens, or promotional assets and often tie into deeper engagement opportunities.

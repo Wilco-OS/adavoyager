@@ -1,0 +1,1 @@
+Countdown display showing how much time remains in the current [[Season]]. Visible in most main views to drive urgency and engagement.

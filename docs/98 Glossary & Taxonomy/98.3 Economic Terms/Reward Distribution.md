@@ -1,0 +1,1 @@
+The logic and execution layer that ensures [[Quest]] and seasonal rewards reach eligible users. May occur [[On-Chain]] (via smart contracts or [[DripDropz]]) or [[Off-Chain]] (email/code-based claim).

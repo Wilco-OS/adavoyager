@@ -1,0 +1,1 @@
+Special permissions or content unlocked by achievements or high rankings. Examples include beta access to [[Partner Tools]], gated Discord channels, private campaigns, or early access to new game features.

@@ -1,0 +1,1 @@
+A reputation metric tied to a specific [[Faction]]. Users earn Fame by completing quests from that [[Faction]]. Fame unlocks visual status tiers and shows deep engagement with specific projects.

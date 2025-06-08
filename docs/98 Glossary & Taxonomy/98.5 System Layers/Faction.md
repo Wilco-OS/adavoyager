@@ -1,0 +1,1 @@
+An educational alliance linked to a Cardano project, allowing users to explore quests and build [[Fame]] without exclusive membership. Users can engage with multiple Factions simultaneously, encouraging exploration of the broader ecosystem.

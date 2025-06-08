@@ -1,0 +1,1 @@
+Leads to the [[Leaderboard]] interface where users can see rankings across [[User|Users]], [[Guild|Guilds]], [[Faction|Factions]], and [[Event|Events]]—filtered by time scope (e.g., weekly, all-time, seasonal).

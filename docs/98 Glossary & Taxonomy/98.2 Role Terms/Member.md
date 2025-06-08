@@ -1,0 +1,1 @@
+A regular [[User]] who joins a single [[Guild]] during a [[Season]]. Members contribute to the [[Guild]]’s success by completing quests, earning points, and climbing the [[Guild]] [[Leaderboard]]. [[Guild]] membership is exclusive per [[Season]].

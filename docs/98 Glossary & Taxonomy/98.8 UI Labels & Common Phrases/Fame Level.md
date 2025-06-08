@@ -1,0 +1,1 @@
+Visual display of a [[User]]’s accumulated [[Fame]] within a [[Faction]]—used to reflect dedication and knowledge depth for specific projects.

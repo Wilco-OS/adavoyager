@@ -1,0 +1,1 @@
+A fixed-duration gameplay phase in which players, Guilds, and Factions compete for [[Leaderboard]] rankings and cumulative rewards. Each season introduces unique quests, point systems, and [[Gold]]/[[Fame]] distribution rules. Seasons give structure to progress and incentivize continued engagement.

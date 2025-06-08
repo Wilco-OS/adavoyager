@@ -1,0 +1,1 @@
+Appears when a [[Quest]] or [[Season]] milestone has been completed and a reward is available. Triggers the [[Reward Distribution]] mechanism.

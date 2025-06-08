@@ -1,0 +1,1 @@
+The in-game currency backed by real USDM (a fiat-backed stablecoin on Cardano). Used for rewards, seasonal payouts, and possibly future in-game purchases. Unlike XP, Gold has real-world value.

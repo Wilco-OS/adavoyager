@@ -1,0 +1,1 @@
+Exclusive to members of a specific [[Guild]]. Drives internal competition and loyalty, often tied to the [[Guild]]’s XP and [[Leaderboard]] performance.

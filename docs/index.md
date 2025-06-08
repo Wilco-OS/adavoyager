@@ -165,7 +165,7 @@ AdaVoyager is developed by [W3i Software](https://w3i.global), the same team beh
 
 Whether you’re a project, dev, DRep, SPO, or Cardano enthusiast — there’s a place for you in AdaVoyager.  
 
-🛠 Want to integrate your project or become a Guild? Head to `70. Partners & Admins`.
+🛠 Want to integrate your project or become a Guild? Head to [[80.2 Partner Quests & Campaign Creation]].
 
 ---
 

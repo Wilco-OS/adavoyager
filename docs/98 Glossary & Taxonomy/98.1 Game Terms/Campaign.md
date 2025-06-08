@@ -1,0 +1,1 @@
+A structured collection of quests usually tied to a [[Partner]] or marketing initiative. Campaigns can drive specific learning outcomes or ecosystem engagement and may include both [[Event]]- and [[Faction]]-based elements.

@@ -1,0 +1,1 @@
+A gamified mechanic that allows users to spin for randomized rewards. It is typically unlocked via [[Daily Login]], achievements, or [[Event]] participation. Rewards can include [[Gold]], XP, [[Fame]], or items.

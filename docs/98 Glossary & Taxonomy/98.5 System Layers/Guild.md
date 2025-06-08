@@ -1,0 +1,1 @@
+A competitive group aligned with a specific Cardano-based project. Users may join one Guild per [[Season]] and gain access to exclusive quests, leaderboards, and perks. Guilds must meet criteria such as launching a liquidity pool and maintaining [[Quest]] activity.

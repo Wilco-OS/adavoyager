@@ -1,0 +1,1 @@
+Represents a [[Guild]]’s collective achievements and performance in a [[Season]]. Influences [[Leaderboard]] rankings and potential end-of-[[Season]] bonuses.

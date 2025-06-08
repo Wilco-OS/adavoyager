@@ -1,0 +1,1 @@
+Gameplay and progression data stored off the blockchain for speed and scalability. Includes most XP tracking, [[Quest]] logs, and [[Daily Login]] bonuses. Synced with [[On-Chain]] actions when relevant.
