@@ -28,9 +28,9 @@ Whether you're a complete newcomer or a DeFi veteran, this platform offers quest
 - **Factions**: Every project in Cardano can be a Faction. Users can do quests for multiple Factions to earn *Fame*—a measure of their involvement with that project.
 - **Quests**: Core gameplay loop. Can be informational (e.g. learn & test), interactive (e.g. QR scans at events), or social (e.g. post & engage on X).
 - **Resources**:
-  - 🟨 **Gold** = USDM (in-game currency)
-  - 🟦 **Experience** = Progression indicator
-  - 🟥 **Fame** = Project reputation metric
+  - 🟨 **[[Gold]]** = USDM (in-game currency)
+  - 🟦 **[[Experience]]** = Progression indicator
+  - 🟥 **[[Fame]]** = Project reputation metric
   - 🟩 **Items** = NFTs, partner tokens, cosmetics
 
 ---
