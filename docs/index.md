@@ -1,4 +1,4 @@
-
+![[AdaVoyager_Wiki (1).jpg]]
 ### _Explore. Learn. Compete. Build Cardano—together._
 
 ___
