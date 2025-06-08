@@ -9,7 +9,6 @@ use_directory_urls: true
 
 theme:
   name: material
-  custom_dir: overrides
   logo: assets/images/logo.svg
   favicon: assets/images/favicon.ico
   palette:
