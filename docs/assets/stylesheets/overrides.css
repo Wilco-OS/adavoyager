@@ -1,4 +1,4 @@
-/* overrides.css */
+/* overrides.css – full AdaVoyager branding + layout tweaks */
 
 /* 1. Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
@@ -6,42 +6,43 @@
 
 /* 2. Brand color variables */
 :root {
-  --av-electric-teal:    #01D3DB;
-  --av-deep-navy:        #181447;
-  --av-hot-pink:         #FE00AA;
-  --av-midnight-blue:    #0D2862;
-  --av-mint:             #6CFBCE;
-  --av-royal-blue:       #1A56FF;
-  --av-text-light:       #E0E0E0;
-  --av-surface-dark:     #22204A;
+  --electric-teal:    #01D3DB;
+  --deep-navy:        #181447;
+  --hot-pink:         #FE00AA;
+  --midnight-blue:    #0D2862;
+  --mint:             #6CFBCE;
+  --royal-blue:       #1A56FF;
+  --text-light:       #E0E0E0;
+  --surface-dark:     #22204A;
 }
 
-/* 3. Base backgrounds & layout */
+/* 3. Base backgrounds */
 body, .md-main, .md-main__inner {
-  background-color: var(--av-deep-navy) !important;
+  background: var(--surface-dark) !important;  /* content panel */
 }
 .md-sidebar {
-  background-color: var(--av-midnight-blue) !important;
+  background: var(--midnight-blue) !important; /* sidebars */
+  border-right: 2px solid var(--electric-teal) !important;
 }
 
 /* 4. Typography */
 body, .md-content {
   font-family: 'Inter', sans-serif;
-  color: var(--av-text-light);
+  color: var(--text-light);
 }
 code, pre {
   font-family: 'Roboto Mono', monospace;
 }
 
-/* 5. Remove all default “boxes” behind nav groups and links */
+/* 5. Kill all nav group boxes & default highlights */
 .md-nav__group,
 .md-nav__group-title,
-.md-sidebar--secondary .md-nav__group,
-.md-sidebar--secondary .md-nav__group-title,
-.md-nav__link,
-.md-sidebar--secondary .md-nav__link,
-.md-nav__link--active {
+.md-nav--primary .md-nav__group-title,
+.md-nav--secondary .md-nav__group-title,
+.md-nav__link--active,
+.md-nav__link {
   background: none !important;
+  box-shadow: none !important;
 }
 
 /* 6. Sidebar & TOC link hover/active */
@@ -49,75 +50,71 @@ code, pre {
 .md-nav__link--active,
 .md-sidebar--secondary .md-nav__link:hover,
 .md-sidebar--secondary .md-nav__link--active {
-  color: var(--av-hot-pink) !important;
-  background-color: rgba(254,0,170,0.05) !important;
+  color: var(--hot-pink) !important;
+  background-color: rgba(254,0,170,0.1) !important;
   text-shadow: 0 0 6px rgba(254,0,170,0.7) !important;
 }
 
 /* 7. Header bar & hide GitHub icon */
 .md-header, .md-header-nav, .md-header__inner {
-  background-color: var(--av-deep-navy) !important;
-  border-bottom: 1px solid var(--av-electric-teal) !important;
+  background: var(--deep-navy) !important;
+  border-bottom: 2px solid var(--electric-teal) !important;
 }
 a.md-header__button--social[href*="github.com"] {
   display: none !important;
 }
 .md-header__button, .md-header-nav .md-nav__link {
-  color: var(--av-text-light) !important;
+  color: var(--text-light) !important;
 }
 .md-header__button:hover, .md-header-nav .md-nav__link:hover {
-  color: var(--av-electric-teal) !important;
+  color: var(--electric-teal) !important;
 }
 
-/* 8. Headings with glow */
+/* 8. Headings glow */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--av-mint) !important;
+  color: var(--mint) !important;
   text-shadow: 0 0 6px rgba(108,251,206,0.5) !important;
 }
 
-/* 9. Links in main content pink */
+/* 9. In-page links pink */
 .md-content a {
-  color: var(--av-hot-pink) !important;
+  color: var(--hot-pink) !important;
   text-decoration: underline;
 }
 .md-content a:hover {
-  color: var(--av-electric-teal) !important;
-  text-shadow: 0 0 4px rgba(1,211,219,0.7) !important;
+  color: var(--hot-pink) !important;
+  text-shadow: 0 0 4px rgba(254,0,170,0.7) !important;
 }
 
-/* 10. Code blocks & inline code */
+/* 10. Code blocks & inline code styling */
 code {
-  background-color: var(--av-royal-blue) !important;
-  border-radius: 0.4rem !important;
-  padding: 0.2rem 0.4rem !important;
+  background: var(--royal-blue) !important;
+  border-radius: .4rem !important;
+  padding: .2rem .4rem !important;
 }
 pre {
-  background-color: var(--av-royal-blue) !important;
-  border-radius: 0.4rem !important;
+  background: var(--royal-blue) !important;
+  border-radius: .4rem !important;
   padding: 1rem !important;
   overflow: auto;
 }
-/* line numbers */
-pre code {
-  counter-reset: linenumber;
-}
+/* line numbers in code */
+pre code { counter-reset: linenumber; }
 pre code span {
-  display: block;
-  counter-increment: linenumber;
+  display: block; counter-increment: linenumber;
 }
 pre code span::before {
   content: counter(linenumber);
   display: inline-block;
-  width: 2em;
-  margin-right: 0.5em;
+  width: 2em; margin-right: .5em;
   color: rgba(255,255,255,0.3);
   text-align: right;
 }
 
 /* 11. Cards & admonitions */
 .md-card, .md-admonition {
-  background-color: var(--av-surface-dark) !important;
-  border: 1px solid var(--av-electric-teal) !important;
+  background: var(--deep-navy) !important;
+  border: 1px solid var(--electric-teal) !important;
   box-shadow: 0 2px 8px rgba(1,211,219,0.2) !important;
   border-radius: 1rem !important;
   padding: 1rem !important;
@@ -125,111 +122,33 @@ pre code span::before {
 
 /* 12. Buttons & CTAs */
 .md-button, .button {
-  background-color: var(--av-electric-teal) !important;
-  color: var(--av-deep-navy) !important;
-  border-radius: 0.5rem !important;
+  background: var(--electric-teal) !important;
+  color: var(--deep-navy) !important;
+  border-radius: .5rem !important;
   box-shadow: 0 2px 6px rgba(1,211,219,0.5) !important;
   transition: background 0.2s, box-shadow 0.2s;
 }
 .md-button:hover, .button:hover {
-  background-color: var(--av-hot-pink) !important;
+  background: var(--hot-pink) !important;
   box-shadow: 0 0 12px rgba(254,0,170,0.6) !important;
 }
 
 /* 13. Sidebar section titles */
 .md-nav__title {
-  color: var(--av-mint) !important;
+  color: var(--mint) !important;
   font-weight: 600 !important;
   text-shadow: 0 0 6px rgba(108,251,206,0.5) !important;
   margin-top: 1.5rem !important;
 }
 
-/* 14. Footer */
+/* 14. Footer styling */
 .md-footer {
-  background-color: var(--av-deep-navy) !important;
-  color: var(--av-text-light) !important;
-  border-top: 1px solid var(--av-electric-teal) !important;
+  background: var(--deep-navy) !important;
+  color: var(--text-light) !important;
+  border-top: 1px solid var(--electric-teal) !important;
 }
 
 /* 15. Logo sizing */
 .md-header__logo {
   max-height: 2.5rem !important;
-}
-
-/* ----------------------------------------------------------------
-   16. Kill the default “group” box behind the sidebar title
-   ---------------------------------------------------------------- */
-   @media screen and (min-width: 76.25em) {
-    /* Primary sidebar header (“AdaVoyager” at top) */
-    .md-nav--primary .md-nav__title {
-      background: none !important;
-      box-shadow: none !important;
-    }
-    /* Secondary sidebar (TOC on the right) header */
-    .md-nav--secondary .md-nav__title {
-      background: none !important;
-      box-shadow: none !important;
-    }
-  }
-  
-  /* ----------------------------------------------------------------
-     17. Ensure no boxes behind any nav groups or links
-     ---------------------------------------------------------------- */
-  .md-nav__group,
-  .md-nav__group-title,
-  .md-nav__link,
-  .md-nav__link--active {
-    background: none !important;
-  }
-  
-  /* ----------------------------------------------------------------
-     18. Make every hover a pure hot-pink (#FE00AA)
-     ---------------------------------------------------------------- */
-  .md-nav__link:hover,
-  .md-nav__link--active,
-  .md-sidebar--secondary .md-nav__link:hover,
-  .md-sidebar--secondary .md-nav__link--active {
-    color: #FE00AA !important;
-    background-color: rgba(254,0,170,0.05) !important;
-    text-shadow: 0 0 6px rgba(254,0,170,0.7) !important;
-  }
-  
-  /* ----------------------------------------------------------------
-     19. Links in page body also hot-pink
-     ---------------------------------------------------------------- */
-  .md-content a {
-    color: #FE00AA !important;
-  }
-  .md-content a:hover {
-    color: #FE00AA !important;
-    text-shadow: 0 0 4px rgba(254,0,170,0.7) !important;
-  }
-
-  /* 20. Differentiate content vs. sidebars */
-.md-main__inner {
-  /* darker “card” background for content */
-  background-color: var(--av-surface-dark) !important;
-  padding: 2rem !important;
-}
-
-/* 21. Give the primary sidebar a teal divider */
-.md-sidebar {
-  border-right: 2px solid var(--av-electric-teal) !important;
-}
-
-/* 22. Remove any leftover group-title boxes in both sidebars */
-.md-nav--primary .md-nav__group-title,
-.md-nav--secondary .md-nav__group-title {
-  background: none !important;
-  box-shadow: none !important;
-}
-
-/* 23. Strong hot-pink for every in-page link */
-.md-content a {
-  color: var(--av-hot-pink) !important;
-  text-decoration: underline;
-}
-.md-content a:hover {
-  color: var(--av-hot-pink) !important;
-  text-shadow: 0 0 4px rgba(254,0,170,0.7) !important;
 }
