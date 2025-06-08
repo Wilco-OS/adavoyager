@@ -68,7 +68,7 @@ code, pre {
 /* 8. Header bar & hide GitHub icon */
 .md-header, .md-header-nav, .md-header__inner {
   background-color: var(--deep-navy) !important;
-  border-bottom: 3px solid var(--electric-teal) !important;
+  border-bottom: none !important;
 }
 a.md-header__button--social[href*="github.com"] {
   display: none !important;
@@ -81,6 +81,11 @@ a.md-header__button--social[href*="github.com"] {
 .md-header__button:hover,
 .md-header-nav .md-nav__link:hover {
   color: var(--electric-teal) !important;
+}
+
+.md-header__source {
+  margin-left: 1.4rem;
+  display: none;
 }
 
 /* 9. Headings with glow */
