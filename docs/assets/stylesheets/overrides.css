@@ -1,4 +1,4 @@
-/* overrides.css – full AdaVoyager branding + layout tweaks */
+/* overrides.css – AdaVoyager final brand polish */
 
 /* 1. Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
@@ -8,44 +8,54 @@
 :root {
   --electric-teal:    #01D3DB;
   --deep-navy:        #181447;
-  --hot-pink:         #FE00AA;
   --midnight-blue:    #0D2862;
+  --hot-pink:         #FE00AA;
   --mint:             #6CFBCE;
   --royal-blue:       #1A56FF;
   --text-light:       #E0E0E0;
+  --bg-main:          #171329;
   --surface-dark:     #22204A;
 }
 
-/* 3. Base backgrounds */
+/* 3. Global & content background */
 body, .md-main, .md-main__inner {
-  background: var(--surface-dark) !important;  /* content panel */
-}
-.md-sidebar {
-  background: var(--midnight-blue) !important; /* sidebars */
-  border-right: 2px solid var(--electric-teal) !important;
+  background-color: var(--bg-main) !important;
+  color: var(--text-light) !important;
 }
 
-/* 4. Typography */
+/* 4. Sidebars: distinct from main content */
+.md-sidebar {
+  background-color: var(--midnight-blue) !important;
+  border-right: 3px solid var(--electric-teal) !important;
+}
+.md-sidebar--secondary {
+  background-color: var(--midnight-blue) !important;
+  border-left: 3px solid var(--electric-teal) !important;
+}
+
+/* 5. Typography */
 body, .md-content {
-  font-family: 'Inter', sans-serif;
-  color: var(--text-light);
+  font-family: 'Inter', sans-serif !important;
+  color: var(--text-light) !important;
 }
 code, pre {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace !important;
 }
 
-/* 5. Kill all nav group boxes & default highlights */
+/* 6. Kill all “boxed” backgrounds in nav groups & titles */
 .md-nav__group,
 .md-nav__group-title,
 .md-nav--primary .md-nav__group-title,
 .md-nav--secondary .md-nav__group-title,
+.md-nav__title,
+.md-nav__link,
 .md-nav__link--active,
-.md-nav__link {
+.md-nav__link--active .md-nav__link {
   background: none !important;
   box-shadow: none !important;
 }
 
-/* 6. Sidebar & TOC link hover/active */
+/* 7. Sidebar & TOC link hover/active = hot-pink */
 .md-nav__link:hover,
 .md-nav__link--active,
 .md-sidebar--secondary .md-nav__link:hover,
@@ -55,50 +65,53 @@ code, pre {
   text-shadow: 0 0 6px rgba(254,0,170,0.7) !important;
 }
 
-/* 7. Header bar & hide GitHub icon */
+/* 8. Header bar & hide GitHub icon */
 .md-header, .md-header-nav, .md-header__inner {
-  background: var(--deep-navy) !important;
-  border-bottom: 2px solid var(--electric-teal) !important;
+  background-color: var(--deep-navy) !important;
+  border-bottom: 3px solid var(--electric-teal) !important;
 }
 a.md-header__button--social[href*="github.com"] {
   display: none !important;
 }
-.md-header__button, .md-header-nav .md-nav__link {
+.md-header__button,
+.md-header-nav .md-nav__link {
   color: var(--text-light) !important;
+  background: none !important;
 }
-.md-header__button:hover, .md-header-nav .md-nav__link:hover {
+.md-header__button:hover,
+.md-header-nav .md-nav__link:hover {
   color: var(--electric-teal) !important;
 }
 
-/* 8. Headings glow */
+/* 9. Headings with glow */
 h1, h2, h3, h4, h5, h6 {
   color: var(--mint) !important;
   text-shadow: 0 0 6px rgba(108,251,206,0.5) !important;
 }
 
-/* 9. In-page links pink */
+/* 10. In‐page links pink */
 .md-content a {
   color: var(--hot-pink) !important;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 .md-content a:hover {
   color: var(--hot-pink) !important;
   text-shadow: 0 0 4px rgba(254,0,170,0.7) !important;
 }
 
-/* 10. Code blocks & inline code styling */
+/* 11. Code blocks & inline code */
 code {
-  background: var(--royal-blue) !important;
+  background-color: var(--royal-blue) !important;
   border-radius: .4rem !important;
   padding: .2rem .4rem !important;
 }
 pre {
-  background: var(--royal-blue) !important;
+  background-color: var(--royal-blue) !important;
   border-radius: .4rem !important;
   padding: 1rem !important;
-  overflow: auto;
+  overflow: auto !important;
 }
-/* line numbers in code */
+/* line numbers */
 pre code { counter-reset: linenumber; }
 pre code span {
   display: block; counter-increment: linenumber;
@@ -111,29 +124,29 @@ pre code span::before {
   text-align: right;
 }
 
-/* 11. Cards & admonitions */
+/* 12. Cards & admonitions */
 .md-card, .md-admonition {
-  background: var(--deep-navy) !important;
+  background-color: var(--surface-dark) !important;
   border: 1px solid var(--electric-teal) !important;
   box-shadow: 0 2px 8px rgba(1,211,219,0.2) !important;
   border-radius: 1rem !important;
   padding: 1rem !important;
 }
 
-/* 12. Buttons & CTAs */
+/* 13. Buttons & CTAs */
 .md-button, .button {
-  background: var(--electric-teal) !important;
+  background-color: var(--electric-teal) !important;
   color: var(--deep-navy) !important;
   border-radius: .5rem !important;
   box-shadow: 0 2px 6px rgba(1,211,219,0.5) !important;
-  transition: background 0.2s, box-shadow 0.2s;
+  transition: background 0.2s, box-shadow 0.2s !important;
 }
 .md-button:hover, .button:hover {
-  background: var(--hot-pink) !important;
+  background-color: var(--hot-pink) !important;
   box-shadow: 0 0 12px rgba(254,0,170,0.6) !important;
 }
 
-/* 13. Sidebar section titles */
+/* 14. Sidebar section titles */
 .md-nav__title {
   color: var(--mint) !important;
   font-weight: 600 !important;
@@ -141,14 +154,14 @@ pre code span::before {
   margin-top: 1.5rem !important;
 }
 
-/* 14. Footer styling */
+/* 15. Footer styling */
 .md-footer {
-  background: var(--deep-navy) !important;
+  background-color: var(--deep-navy) !important;
   color: var(--text-light) !important;
   border-top: 1px solid var(--electric-teal) !important;
 }
 
-/* 15. Logo sizing */
+/* 16. Logo sizing */
 .md-header__logo {
   max-height: 2.5rem !important;
 }
