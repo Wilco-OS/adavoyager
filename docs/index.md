@@ -174,4 +174,3 @@ Whether you’re a project, dev, DRep, SPO, or Cardano enthusiast — there’s 
 ➡️ [Start your journey now](#)
 
 ---
-*Last updated: {{date}}*
