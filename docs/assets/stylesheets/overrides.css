@@ -204,3 +204,32 @@ pre code span::before {
     color: #FE00AA !important;
     text-shadow: 0 0 4px rgba(254,0,170,0.7) !important;
   }
+
+  /* 20. Differentiate content vs. sidebars */
+.md-main__inner {
+  /* darker “card” background for content */
+  background-color: var(--av-surface-dark) !important;
+  padding: 2rem !important;
+}
+
+/* 21. Give the primary sidebar a teal divider */
+.md-sidebar {
+  border-right: 2px solid var(--av-electric-teal) !important;
+}
+
+/* 22. Remove any leftover group-title boxes in both sidebars */
+.md-nav--primary .md-nav__group-title,
+.md-nav--secondary .md-nav__group-title {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* 23. Strong hot-pink for every in-page link */
+.md-content a {
+  color: var(--av-hot-pink) !important;
+  text-decoration: underline;
+}
+.md-content a:hover {
+  color: var(--av-hot-pink) !important;
+  text-shadow: 0 0 4px rgba(254,0,170,0.7) !important;
+}
