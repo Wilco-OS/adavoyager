@@ -16,18 +16,12 @@
   --av-surface-dark:     #22204A;
 }
 
-/* 3. Page & layout backgrounds */
-body, .md-main {
-  background-color: var(--av-deep-navy);
-}
-.md-main__inner {
-  background-color: var(--av-deep-navy);
-  /* Optional cosmic starfield:
-     background: url('/assets/images/stars.svg') center/cover no-repeat, var(--av-deep-navy);
-  */
+/* 3. Base backgrounds & layout */
+body, .md-main, .md-main__inner {
+  background-color: var(--av-deep-navy) !important;
 }
 .md-sidebar {
-  background-color: var(--av-midnight-blue);
+  background-color: var(--av-midnight-blue) !important;
 }
 
 /* 4. Typography */
@@ -39,33 +33,68 @@ code, pre {
   font-family: 'Roboto Mono', monospace;
 }
 
-/* 5. Links & nav items */
-a, .md-nav__link {
-  color: var(--av-electric-teal);
-  transition: color 0.2s, text-shadow 0.2s;
-}
-a:hover, .md-nav__link:hover, .md-nav__link--active {
-  color: var(--av-hot-pink);
-  text-shadow: 0 0 8px rgba(254,0,170,0.7);
+/* 5. Remove all default “boxes” behind nav groups and links */
+.md-nav__group,
+.md-nav__group-title,
+.md-sidebar--secondary .md-nav__group,
+.md-sidebar--secondary .md-nav__group-title,
+.md-nav__link,
+.md-sidebar--secondary .md-nav__link,
+.md-nav__link--active {
+  background: none !important;
 }
 
-/* 6. Headings with glow */
+/* 6. Sidebar & TOC link hover/active */
+.md-nav__link:hover,
+.md-nav__link--active,
+.md-sidebar--secondary .md-nav__link:hover,
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--av-hot-pink) !important;
+  background-color: rgba(254,0,170,0.05) !important;
+  text-shadow: 0 0 6px rgba(254,0,170,0.7) !important;
+}
+
+/* 7. Header bar & hide GitHub icon */
+.md-header, .md-header-nav, .md-header__inner {
+  background-color: var(--av-deep-navy) !important;
+  border-bottom: 1px solid var(--av-electric-teal) !important;
+}
+a.md-header__button--social[href*="github.com"] {
+  display: none !important;
+}
+.md-header__button, .md-header-nav .md-nav__link {
+  color: var(--av-text-light) !important;
+}
+.md-header__button:hover, .md-header-nav .md-nav__link:hover {
+  color: var(--av-electric-teal) !important;
+}
+
+/* 8. Headings with glow */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif;
-  color: var(--av-mint);
-  text-shadow: 0 0 6px rgba(108,251,206,0.5);
+  color: var(--av-mint) !important;
+  text-shadow: 0 0 6px rgba(108,251,206,0.5) !important;
 }
 
-/* 7. Code blocks & inline code */
+/* 9. Links in main content pink */
+.md-content a {
+  color: var(--av-hot-pink) !important;
+  text-decoration: underline;
+}
+.md-content a:hover {
+  color: var(--av-electric-teal) !important;
+  text-shadow: 0 0 4px rgba(1,211,219,0.7) !important;
+}
+
+/* 10. Code blocks & inline code */
 code {
-  background-color: var(--av-royal-blue);
-  border-radius: 0.4rem;
-  padding: 0.2rem 0.4rem;
+  background-color: var(--av-royal-blue) !important;
+  border-radius: 0.4rem !important;
+  padding: 0.2rem 0.4rem !important;
 }
 pre {
-  background-color: var(--av-royal-blue);
-  border-radius: 0.4rem;
-  padding: 1rem;
+  background-color: var(--av-royal-blue) !important;
+  border-radius: 0.4rem !important;
+  padding: 1rem !important;
   overflow: auto;
 }
 /* line numbers */
@@ -85,87 +114,44 @@ pre code span::before {
   text-align: right;
 }
 
-/* 8. Cards & admonitions */
+/* 11. Cards & admonitions */
 .md-card, .md-admonition {
-  background-color: var(--av-surface-dark);
-  border: 1px solid var(--av-electric-teal);
-  box-shadow: 0 2px 8px rgba(1,211,219,0.2);
-  border-radius: 1rem;
-  padding: 1rem;
+  background-color: var(--av-surface-dark) !important;
+  border: 1px solid var(--av-electric-teal) !important;
+  box-shadow: 0 2px 8px rgba(1,211,219,0.2) !important;
+  border-radius: 1rem !important;
+  padding: 1rem !important;
 }
 
-/* 9. Buttons & CTAs */
+/* 12. Buttons & CTAs */
 .md-button, .button {
-  background-color: var(--av-electric-teal);
-  color: var(--av-deep-navy);
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 6px rgba(1,211,219,0.5);
+  background-color: var(--av-electric-teal) !important;
+  color: var(--av-deep-navy) !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 2px 6px rgba(1,211,219,0.5) !important;
   transition: background 0.2s, box-shadow 0.2s;
 }
 .md-button:hover, .button:hover {
-  background-color: var(--av-hot-pink);
-  box-shadow: 0 0 12px rgba(254,0,170,0.6);
+  background-color: var(--av-hot-pink) !important;
+  box-shadow: 0 0 12px rgba(254,0,170,0.6) !important;
 }
 
-/* 10. Sidebar section titles */
+/* 13. Sidebar section titles */
 .md-nav__title {
-  color: var(--av-mint);
-  font-weight: 600;
-  margin-top: 1.5rem;
-  text-shadow: 0 0 6px rgba(108,251,206,0.5);
+  color: var(--av-mint) !important;
+  font-weight: 600 !important;
+  text-shadow: 0 0 6px rgba(108,251,206,0.5) !important;
+  margin-top: 1.5rem !important;
 }
 
-/* 11. Footer */
+/* 14. Footer */
 .md-footer {
-  background-color: var(--av-deep-navy);
-  color: var(--av-text-light);
-  border-top: 1px solid var(--av-electric-teal);
-}
-
-/* 12. Navbar & top bar */
-.md-header, .md-header-nav, .md-header__inner {
   background-color: var(--av-deep-navy) !important;
-  border-bottom: 1px solid var(--av-electric-teal);
-}
-/* hide GitHub icon */
-a.md-header__button--social[href*="github.com"] {
-  display: none !important;
-}
-/* navbar link colors */
-.md-header__button, .md-header-nav .md-nav__link {
-  color: var(--av-text-light);
-}
-.md-header__button:hover, .md-header-nav .md-nav__link:hover {
-  color: var(--av-electric-teal);
+  color: var(--av-text-light) !important;
+  border-top: 1px solid var(--av-electric-teal) !important;
 }
 
-/* 13. Logo sizing */
+/* 15. Logo sizing */
 .md-header__logo {
-  max-height: 2.5rem;
-}
-
-/* 14. Remove unwanted blocks behind sidebar header */
-.md-nav__group, 
-.md-nav__group-title,
-.md-sidebar--secondary .md-nav__title {
-  background: none !important;
-}
-
-/* 15. Clean up any colored “active” highlights */
-.md-nav__link--active,
-.md-nav__link--active .md-nav__link {
-  background: none !important;
-}
-
-/* 16. Strong hot-pink hover for all nav links */
-.md-nav__link:hover,
-.md-nav__link--active {
-  color: #FE00AA !important;
-  /* optional light pink background on hover */
-  background-color: rgba(254,0,170,0.05) !important;
-}
-
-/* 17. Tidy up any other dark squares in header */
-.md-header__inner > div {
-  background: none !important;
+  max-height: 2.5rem !important;
 }
