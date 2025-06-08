@@ -176,7 +176,9 @@ pre code span::before {
   font-size: 0.7rem;
   color: var(--text-light);
 }
-
+.md-footer-meta {
+  display: none;
+}
 /* 16. Logo sizing */
 .md-header__logo img {
   width: auto !important;
