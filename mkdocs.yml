@@ -6,8 +6,11 @@ edit_uri: edit/main/docs
 docs_dir: docs
 use_directory_urls: true
 
+
 theme:
   name: material
+  logo: assets/images/my-logo.svg
+  favicon: assets/images/favicon.ico
   palette:
     scheme: slate    # dark-by-default
     primary:
@@ -28,6 +31,9 @@ theme:
 plugins:
   - search
   - obsidian-bridge
+
+extra_css:
+  - assets/stylesheets/overrides.css
 
 markdown_extensions:
   - toc:

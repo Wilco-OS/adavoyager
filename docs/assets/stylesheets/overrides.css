@@ -1,68 +1,74 @@
-/* Import Inter from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+/* overrides.css */
 
-/* Body & backgrounds */
-.md-content {
-  background: #181447;            /* Deep Navy */
-  color: #E0E0E0;                 /* light grey text */
+/* 1. Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+/* 2. Brand color variables */
+:root {
+  --av-electric-teal:    #01D3DB;
+  --av-deep-navy:        #181447;
+  --av-hot-pink:         #FE00AA;
+  --av-midnight-blue:    #0D2862;
+  --av-mint:             #6CFBCE;
+  --av-royal-blue:       #1A56FF;
+  --av-text-light:       #E0E0E0;
+  --av-surface-dark:     #22204A;
+}
+
+/* 3. Page & layout backgrounds */
+body, .md-main {
+  background-color: var(--av-deep-navy);
+}
+.md-main__inner {
+  background-color: var(--av-deep-navy);
+  /* Optional cosmic starfield:
+     background: url('/assets/images/stars.svg') center/cover no-repeat, var(--av-deep-navy);
+  */
 }
 .md-sidebar {
-  background: #0D2862;            /* Midnight Blue */
+  background-color: var(--av-midnight-blue);
 }
 
-/* Links & accents */
-a, .md-nav__link {
-  color: #01D3DB;                 /* Electric Teal */
-  transition: color .2s ease, text-shadow .2s ease;
-}
-a:hover, .md-nav__link--active, .md-nav__link:hover {
-  color: #FE00AA;                 /* Hot Pink */
-  text-shadow: 0 0 8px rgba(254,0,170, .7);
-}
-
-/* Headers with subtle glow */
-h1, h2, h3, h4, h5, h6 {
+/* 4. Typography */
+body, .md-content {
   font-family: 'Inter', sans-serif;
-  color: #6CFBCE;                 /* Moneta Mint */
-  text-shadow: 0 0 6px rgba(108,251,206,.5);
+  color: var(--av-text-light);
 }
-
-/* Code blocks & inline code */
 code, pre {
-  background: #1A56FF;            /* Royal Blue */
-  border-radius: .4rem;
-  padding: .2rem .4rem;
   font-family: 'Roboto Mono', monospace;
 }
 
-/* Cards & blocks */
-.md-card, .md-admonition {
-  background: #22204A;            /* darker navy */
-  border: 1px solid #01D3DB;      /* Electric Teal border */
-  box-shadow: 0 2px 8px rgba(1,211,219,.2);
+/* 5. Links & nav items */
+a, .md-nav__link {
+  color: var(--av-electric-teal);
+  transition: color 0.2s, text-shadow 0.2s;
+}
+a:hover, .md-nav__link:hover, .md-nav__link--active {
+  color: var(--av-hot-pink);
+  text-shadow: 0 0 8px rgba(254,0,170,0.7);
 }
 
-/* Buttons & call-to-action */
-.button, .md-button {
-  background: #01D3DB;            /* Electric Teal */
-  color: #181447;                 /* Deep Navy text */
-  border-radius: .5rem;
-  box-shadow: 0 2px 6px rgba(1,211,219,.5);
-  transition: background .2s ease, box-shadow .2s ease;
-}
-.button:hover, .md-button:hover {
-  background: #FE00AA;            /* Hot Pink */
-  box-shadow: 0 0 12px rgba(254,0,170,.6);
+/* 6. Headings with glow */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  color: var(--av-mint);
+  text-shadow: 0 0 6px rgba(108,251,206,0.5);
 }
 
-/* Sidebar headers */
-.md-nav__title {
-  color: #6CFBCE;                 /* Moneta Mint */
-  font-weight: 600;
-  margin-top: 1.5rem;
+/* 7. Code blocks & inline code */
+code {
+  background-color: var(--av-royal-blue);
+  border-radius: 0.4rem;
+  padding: 0.2rem 0.4rem;
 }
-
-/* Code block line-numbers & emphasis */
+pre {
+  background-color: var(--av-royal-blue);
+  border-radius: 0.4rem;
+  padding: 1rem;
+  overflow: auto;
+}
+/* line numbers */
 pre code {
   counter-reset: linenumber;
 }
@@ -74,14 +80,66 @@ pre code span::before {
   content: counter(linenumber);
   display: inline-block;
   width: 2em;
-  margin-right: .5em;
-  color: rgba(255,255,255,.3);
+  margin-right: 0.5em;
+  color: rgba(255,255,255,0.3);
   text-align: right;
 }
 
-/* Footer */
+/* 8. Cards & admonitions */
+.md-card, .md-admonition {
+  background-color: var(--av-surface-dark);
+  border: 1px solid var(--av-electric-teal);
+  box-shadow: 0 2px 8px rgba(1,211,219,0.2);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* 9. Buttons & CTAs */
+.md-button, .button {
+  background-color: var(--av-electric-teal);
+  color: var(--av-deep-navy);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(1,211,219,0.5);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.md-button:hover, .button:hover {
+  background-color: var(--av-hot-pink);
+  box-shadow: 0 0 12px rgba(254,0,170,0.6);
+}
+
+/* 10. Sidebar section titles */
+.md-nav__title {
+  color: var(--av-mint);
+  font-weight: 600;
+  margin-top: 1.5rem;
+  text-shadow: 0 0 6px rgba(108,251,206,0.5);
+}
+
+/* 11. Footer */
 .md-footer {
-  background: #181447;            /* Deep Navy */
-  color: #E0E0E0;
-  border-top: 1px solid #01D3DB;
+  background-color: var(--av-deep-navy);
+  color: var(--av-text-light);
+  border-top: 1px solid var(--av-electric-teal);
+}
+
+/* 12. Navbar & top bar */
+.md-header, .md-header-nav, .md-header__inner {
+  background-color: var(--av-deep-navy) !important;
+  border-bottom: 1px solid var(--av-electric-teal);
+}
+/* hide GitHub icon */
+a.md-header__button--social[href*="github.com"] {
+  display: none !important;
+}
+/* navbar link colors */
+.md-header__button, .md-header-nav .md-nav__link {
+  color: var(--av-text-light);
+}
+.md-header__button:hover, .md-header-nav .md-nav__link:hover {
+  color: var(--av-electric-teal);
+}
+
+/* 13. Logo sizing */
+.md-header__logo {
+  max-height: 2.5rem;
 }
