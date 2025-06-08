@@ -9,7 +9,7 @@ use_directory_urls: true
 
 theme:
   name: material
-  logo: assets/images/my-logo.svg
+  logo: assets/images/logo.svg
   favicon: assets/images/favicon.ico
   palette:
     scheme: slate    # dark-by-default
