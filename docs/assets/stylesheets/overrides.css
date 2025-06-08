@@ -155,3 +155,52 @@ pre code span::before {
 .md-header__logo {
   max-height: 2.5rem !important;
 }
+
+/* ----------------------------------------------------------------
+   16. Kill the default “group” box behind the sidebar title
+   ---------------------------------------------------------------- */
+   @media screen and (min-width: 76.25em) {
+    /* Primary sidebar header (“AdaVoyager” at top) */
+    .md-nav--primary .md-nav__title {
+      background: none !important;
+      box-shadow: none !important;
+    }
+    /* Secondary sidebar (TOC on the right) header */
+    .md-nav--secondary .md-nav__title {
+      background: none !important;
+      box-shadow: none !important;
+    }
+  }
+  
+  /* ----------------------------------------------------------------
+     17. Ensure no boxes behind any nav groups or links
+     ---------------------------------------------------------------- */
+  .md-nav__group,
+  .md-nav__group-title,
+  .md-nav__link,
+  .md-nav__link--active {
+    background: none !important;
+  }
+  
+  /* ----------------------------------------------------------------
+     18. Make every hover a pure hot-pink (#FE00AA)
+     ---------------------------------------------------------------- */
+  .md-nav__link:hover,
+  .md-nav__link--active,
+  .md-sidebar--secondary .md-nav__link:hover,
+  .md-sidebar--secondary .md-nav__link--active {
+    color: #FE00AA !important;
+    background-color: rgba(254,0,170,0.05) !important;
+    text-shadow: 0 0 6px rgba(254,0,170,0.7) !important;
+  }
+  
+  /* ----------------------------------------------------------------
+     19. Links in page body also hot-pink
+     ---------------------------------------------------------------- */
+  .md-content a {
+    color: #FE00AA !important;
+  }
+  .md-content a:hover {
+    color: #FE00AA !important;
+    text-shadow: 0 0 4px rgba(254,0,170,0.7) !important;
+  }
