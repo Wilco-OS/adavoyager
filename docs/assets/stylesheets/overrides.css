@@ -161,6 +161,15 @@ pre code span::before {
   border-top: 1px solid var(--electric-teal) !important;
 }
 
+.md-footer::before {
+  content: "📧 chat@wilco.space   |   💬 Discord:iamwilco   |   🐦 Twitter:@iamwilco";
+  display: block;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
 /* 16. Logo sizing */
 .md-header__logo img {
   width: auto !important;
